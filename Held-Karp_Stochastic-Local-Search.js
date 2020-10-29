@@ -1,8 +1,5 @@
 /*
  * Kyle Beitz
- * COSC 3020
- * Assignment 3
- * W05276756
  */
 
 //********** Held-Karp Algorithm Memoization **********//  
@@ -143,25 +140,3 @@ var arr = [0,1,2,3];
 arr = paths(3);
 console.log(tsp_ls(arr));
 console.log(tsp_hk(arr));
-
-
-
-
-/*
-* Resources:
-* Received help from Kegan M via virtual meetings
-* Data Structures and Algorithm Analysis in C++ 4th Edition Mark, Allen, Weiss
-* https://stackoverflow.com/questions/4011629/swapping-two-items-in-a-javascript-array
-* https://stackoverflow.com/questions/19036527/reverse-part-of-an-array-using-javascript
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
-* https://www.sitepoint.com/implementing-memoization-in-javascript/
-* https://codeburst.io/understanding-memoization-in-3-minutes-2e58daf33a19
-* https://stackoverflow.com/questions/47114430/generating-a-2-opt-swap-neighborhood-from-a-javascript-array
-* http://pedrohfsd.com/2017/08/09/2opt-part1.html
-* https://link.springer.com/article/10.1007/s00453-013-9801-4
-* http://on-demand.gputechconf.com/gtc/2014/presentations/S4534-high-speed-2-opt-tsp-solver.pdf
-* https://stackoverflow.com/questions/47114430/generating-a-2-opt-swap-neighborhood-from-a-javascript-array
-* https://www.youtube.com/watch?v=-JjA4BLQyqE
-* https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
-*/
